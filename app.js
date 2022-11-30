@@ -28,39 +28,3 @@ const test = () => {
     requestAnimationFrame(test);
 };
 requestAnimationFrame(test);
-
-// const asignRect = () => {
-//     let arr = [];
-//     let x = 0;
-//     let y = 0;
-//     for (let i = 0; i < 5; i++) {
-//         arr.push(new Rect(x, y));
-//         x += 5;
-//         y += 5;
-//     }
-//     return arr;
-// };
-
-// const s = () => {
-//     if (x < 300) {
-//         //     console.log("welcome");
-//         //     ctx.lineTo(x, y);
-//         //     ctx.stroke();
-//         //     requestAnimationFrame(s);
-//         //     x += 2;
-//         //     y += 2;
-//         // } else {
-//         //     ctx.lineTo(x, y);
-//         //     ctx.stroke();
-//         //     requestAnimationFrame(s);
-//         //     x -= 2;
-//         //     y -= 2;
-//     }
-// };
-// requestAnimationFrame(s);
-
-// const main = () => {
-//     console.log(asignRect());
-// };
-
-// main();
